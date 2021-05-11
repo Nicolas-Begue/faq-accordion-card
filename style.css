@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+#container {
+  display: flex;
+  width: 920px;
+  height: 510px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 10px 100px -20px black;
+  overflow: hidden;
+}
+#left {
+  width: 50%;
+}
+#right {
+  width: 50%;
+}
+#womanDesktop {
+  position: relative;
+  top: 7vh;
+  left: -15%;
+}
+#box {
+  position: absolute;
+  padding-right: 910px;
+  padding-top: 75px;
+  z-index: 1;
+}
